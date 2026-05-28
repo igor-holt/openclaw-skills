@@ -51,23 +51,51 @@ clawhub inspect mcp-openclaw-bridge --versions
 clawhub inspect smithery-mcp-orchestrator --versions
 ```
 
-## Phase 2: Activate clawdash.genesisconductor.io (GitHub Pages + Custom Domain)
+## Phase 2: Activate clawdash.genesisconductor.io (GitHub Pages + Custom Domain + HTTPS)
 
-1. Ensure the `docs/CNAME` file exists (already created):
-   - Content: `clawdash.genesisconductor.io`
+**Goal:** Make https://clawdash.genesisconductor.io the secure, canonical production URL for the LidLift dashboard.
 
-2. In the GitHub repo **Settings → Pages**:
-   - Source: `main` branch
-   - Folder: `/docs`
+### Steps:
 
-3. Add DNS record:
-   - Type: `CNAME`
-   - Name: `clawdash`
-   - Value: `igor-holt.github.io`
+1. **CNAME file** (already created in repo):
+   - `docs/CNAME` contains: `clawdash.genesisconductor.io`
 
-4. (Recommended) In GitHub Pages settings, add the custom domain and enable HTTPS.
+2. **GitHub Pages configuration**:
+   - Repo → Settings → Pages
+   - Source: Deploy from a branch → `main` / `/docs`
+   - Add custom domain: `clawdash.genesisconductor.io`
+   - Check "Enforce HTTPS" (GitHub will provision Let's Encrypt cert — this can take a few minutes to 24h after DNS is correct)
 
-The interactive LidLift Pareto Lifecycle dashboard will then be live at the official Genesis Conductor subdomain.
+3. **DNS Record** (most common cause of "not accessible"):
+
+   If using Google Cloud DNS (common in your setup):
+
+   ```bash
+   gcloud dns record-sets create clawdash.genesisconductor.io \
+     --zone="YOUR_ZONE_NAME" \
+     --type="CNAME" \
+     --ttl="300" \
+     --rrdatas="igor-holt.github.io."
+   ```
+
+   Or manually add:
+   - Type: **CNAME**
+   - Name: `clawdash.genesisconductor.io`
+   - Value: `igor-holt.github.io.`
+   - TTL: 300 (or 5 minutes)
+
+   **Important**: Use the trailing dot after `github.io.` for the canonical name.
+
+4. Wait for DNS propagation (use `dig clawdash.genesisconductor.io` or https://dnschecker.org).
+
+5. Once DNS resolves and Pages is configured, GitHub will automatically secure it with HTTPS at `https://clawdash.genesisconductor.io`.
+
+The dashboard is already configured to force HTTPS and use the correct canonical URL.
+
+**Current status of the site (while DNS is pending):**
+- It remains accessible via: https://igor-holt.github.io/openclaw-skills/
+
+After DNS + custom domain activation, the full secure URL `https://clawdash.genesisconductor.io` will serve the interactive LidLift Pareto dashboard.
 
 ## Phase 3: Update All Surfaces (Per Explorer Map + A2A Mission)
 
