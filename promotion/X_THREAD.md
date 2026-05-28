@@ -1,8 +1,11 @@
+---
 # X/Twitter Thread: Launch of Igor Holt's OpenClaw Skills Trio (v1.0.0)
 
 **Target:** 7 tweets. Professional, architectural tone. Emphasize Genesis Conductor foundations (thermodynamic verification + topological orchestration + practical infrastructure), reliability, token-scoped security, memory, and composability.
 
 **Exact GitHub repo (include in every relevant tweet):** https://github.com/igor-holt/openclaw-skills
+
+**Production Dashboard:** https://clawdash.genesisconductor.io
 
 **ClawHub install commands (include in announcement and closing tweets):**
 ```
@@ -31,6 +34,8 @@ clawhub install grok-persistent-state
 clawhub install mcp-openclaw-bridge
 clawhub install smithery-mcp-orchestrator
 ```
+
+Production dashboard: https://clawdash.genesisconductor.io
 
 Repo + full docs: https://github.com/igor-holt/openclaw-skills
 
@@ -116,11 +121,15 @@ clawhub install mcp-openclaw-bridge
 clawhub install smithery-mcp-orchestrator
 ```
 
+Production dashboard: https://clawdash.genesisconductor.io
+
 All skills are MIT-0. Full SKILL.md files, combined workflow examples, state templates, and mapping patterns are in the repo.
 
 https://github.com/igor-holt/openclaw-skills
 
 Feedback, issues, and production usage reports welcome.
+
+Follow @invariantx for ongoing work: https://x.com/invariantx
 
 #OpenClaw #ClawHub #MCP #Smithery #GenesisConductor #AgentInfrastructure
 

@@ -9,6 +9,4 @@
 **Usage guidance:**
 - Ideal length for LinkedIn "About" section, GitHub profile bio, ClawHub author page, conference speaker notes, or X/Twitter profile expansion.
 - Tone is technical and credible; highlights the Genesis Conductor lineage and the specific OpenClaw skills contribution without hype.
-- For shorter contexts (X bio, header), condense to: "@invariantx — Creator of Genesis Conductor. Shipping production agent infrastructure on OpenClaw + MCP + Smithery (grok-persistent-state, mcp-openclaw-bridge, smithery-mcp-orchestrator). https://github.com/igor-holt/openclaw-skills | https://x.com/invariantx"
-
-**End of blurb asset.**
+- For shorter contexts (X bio, header), condense to: "@invariantx — Creator of Genesis Conductor. Shipping production agent infrastructure on OpenClaw + MCP + Smithery (grok-persistent-state, mcp-openclaw-bridge, smithery-mcp-orchestrator). https://github.com/igor-holt/openclaw-skills | Production dashboard: https://clawdash.genesisconductor.io | https://x.com/invariantx"
