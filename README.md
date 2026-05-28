@@ -1,3 +1,4 @@
+---
 # OpenClaw Skills (Genesis Conductor Layer) — by @invariantx
 
 **@invariantx** (Igor Holt) — https://x.com/invariantx
@@ -33,6 +34,26 @@ Canonical workflows for namespaces, long-lived MCP connections, advanced token p
 
 **Install:** `clawhub install smithery-mcp-orchestrator`
 
+## Real-World Production Usage
+
+These skills power live autonomous agent systems, including:
+
+- **@invariantx ↔ DiamondNodeBot** on Telegram — OpenClaw (with persistent state, MCP bridging, and Smithery orchestration) connected through the InvariantX identity layer to the DiamondNodeBot Telegram channel for reliable, attested, multi-channel agent operation.
+
+This deployment demonstrates the full trio in production: durable memory across turns, safe exposure of MCP tools, and professional Smithery-driven discovery + token scoping for Telegram-based agent interfaces.
+
+## Production Dashboard
+
+**LidLift Pareto Lifecycle: MCP Tool Dissonance Scoring Dashboard**  
+**https://clawdash.genesisconductor.io** (secure canonical production)
+
+**Status**: Custom domain DNS is pending configuration.  
+The dashboard is currently accessible via the GitHub Pages mirror: https://igor-holt.github.io/openclaw-skills/
+
+See `EXECUTION_CHECKLIST.md` (Phase 2) for exact DNS + GitHub Pages + HTTPS steps, including gcloud commands.
+
+Once live, the secure dashboard will be the canonical surface for the OpenClaw skills stack (Genesis Conductor + @invariantx + DiamondNode).
+
 ## How the Three Skills Compose
 
 - Use **smithery-mcp-orchestrator** to find and connect to new services safely.
@@ -56,14 +77,6 @@ They are designed to compose with the dominant tactical skills in the ClawHub ec
 All skills follow strict semantic versioning + detailed changelogs on every publish.
 
 MIT-0 / open contribution friendly.
-
-## Real-World Production Usage
-
-These skills power live autonomous agent systems, including:
-
-- **InvariantX ↔ DiamondNodeBot** on Telegram — OpenClaw (with persistent state, MCP bridging, and Smithery orchestration) connected through the InvariantX identity layer to the DiamondNodeBot Telegram channel for reliable, attested, multi-channel agent operation.
-
-This deployment demonstrates the full trio in production: durable memory across turns, safe exposure of MCP tools, and professional Smithery-driven discovery + token scoping for Telegram-based agent interfaces.
 
 ## Attribution
 

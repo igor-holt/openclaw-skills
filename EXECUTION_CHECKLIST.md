@@ -1,7 +1,7 @@
 ---
 # InvariantX OpenClaw Skills + LidLift Dashboard — Full Execution Checklist
 
-**Canonical Production Domain:** https://clawdash.genesisconductor.io
+**Canonical Secure Production Domain:** https://clawdash.genesisconductor.io
 
 **Primary Attribution:** @invariantx (https://x.com/invariantx)
 
