@@ -1,0 +1,19 @@
+{
+  "project_id": "default",
+  "goal": "Describe the overall objective of the current project or agent session.",
+  "current_focus": "The single most important thing the agent should be working on right now.",
+  "recent_changes": [
+    "Concrete things that just happened (most recent first)"
+  ],
+  "open_tasks": [
+    "Specific remaining work items that are not yet done"
+  ],
+  "decisions": [
+    "Key architectural or directional choices recorded for future turns"
+  ],
+  "artifacts": [
+    "Relative paths to important files, outputs, or documents created"
+  ],
+  "skill_preferences": {},
+  "updated_at": "2026-05-28T...Z"
+}

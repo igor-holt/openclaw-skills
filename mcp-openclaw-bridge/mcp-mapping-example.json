@@ -1,0 +1,26 @@
+{
+  "description": "Example mapping from natural language intent to MCP tool invocation for a multi-provider MCP server",
+  "mappings": [
+    {
+      "intent": "perform arithmetic or calculations",
+      "trigger_phrases": ["calculate", "compute", "what is 15 * 23"],
+      "mcp_tool": "calculator",
+      "param_transform": {
+        "operation": "add|subtract|multiply|divide",
+        "a": "number",
+        "b": "number"
+      },
+      "notes": "Always validate inputs before calling. Return both the numeric result and a short explanation."
+    },
+    {
+      "intent": "search for current information on the web",
+      "trigger_phrases": ["search for", "what is the latest", "find current"],
+      "mcp_tool": "web_search",
+      "param_transform": {
+        "query": "string - the search query"
+      },
+      "notes": "Ground all claims in the returned sources. Prefer recent results."
+    }
+  ],
+  "privacy": "All credentials and MCP server configuration remain strictly local. Only the minimal serialized tool arguments are sent to the MCP server."
+}
