@@ -1,0 +1,75 @@
+{
+  "$schema": "https://www.schemastore.org/schemas/json/claude-code-marketplace.json",
+  "name": "genesis-conductor-openclaw",
+  "owner": {
+    "name": "Igor Holt (@invariantx)",
+    "email": "iholt@mymail.aacc.edu",
+    "url": "https://github.com/igor-holt"
+  },
+  "description": "Production-grade OpenClaw and ClawHub skills bundle by Igor Holt (@invariantx), creator of Genesis Conductor. The tightly paired professional trio: grok-persistent-state (persistent project state + unified skill registry that solves amnesia for stateless LLMs like Grok, OpenClaw, Claude Code, Cursor), mcp-openclaw-bridge (turns any MCP server into first-class versioned OpenClaw skills with auditable adapters and safety boundaries), and smithery-mcp-orchestrator (secure discovery, connection, token scoping with rpcReqMatch policies, and orchestration of 100K+ tools from Smithery inside agents). Designed to compose together for reliable long-running autonomous agents, MCP integration, multi-tool orchestration, and thermodynamic verification patterns from the Genesis Conductor Engine. Powers production systems including DiamondNodeBot on Telegram and LidLift Pareto dashboards (clawdash.genesisconductor.io). Install via ClawHub for the complete stack: clawhub install grok-persistent-state && clawhub install mcp-openclaw-bridge && clawhub install smithery-mcp-orchestrator. Essential for agentic orchestration, self-hosted AI, persistent memory, and professional skill publishing.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/igor-holt/openclaw-skills",
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "genesis-conductor",
+    "igor-holt",
+    "invariantx",
+    "grok-persistent-state",
+    "mcp-openclaw-bridge",
+    "smithery-mcp-orchestrator",
+    "persistent-project-state",
+    "stateless-llm-memory",
+    "mcp-bridge",
+    "mcp-server-to-skill",
+    "smithery-orchestration",
+    "100k-tools",
+    "token-scoping",
+    "thermodynamic-verification",
+    "autonomous-agents",
+    "agent-infrastructure",
+    "mcp-tools",
+    "skill-registry",
+    "a2a-coordination",
+    "diamondnode"
+  ],
+  "plugins": [
+    {
+      "name": "grok-persistent-state",
+      "source": "https://github.com/igor-holt/openclaw-skills/tree/main/grok-persistent-state",
+      "description": "Persistent project state + unified skill registry for stateless LLMs (Grok, OpenClaw, Claude Code, Cursor and compatible agents). Eliminates amnesia between turns so long-running autonomous agent work becomes reliable and memoryful. Remembers goals, decisions, open tasks, artifacts, Smithery namespaces/connections across sessions. Trigger on 'remember the project state', 'load persistent memory', 'continue from where we left off'. Install: clawhub install grok-persistent-state. Foundational component of the Genesis Conductor OpenClaw skills trio by @invariantx for reliable agent orchestration.",
+      "version": "1.0.0",
+      "tags": ["persistent-state", "memory", "state-management", "agent-reliability", "genesis-conductor", "openclaw"],
+      "category": "agent-infrastructure",
+      "homepage": "https://github.com/igor-holt/openclaw-skills/tree/main/grok-persistent-state",
+      "keywords": ["persistent project state for stateless LLMs", "grok memory", "clawhub skill", "openclaw skills", "agent state registry", "thermodynamic agent patterns"]
+    },
+    {
+      "name": "mcp-openclaw-bridge",
+      "source": "https://github.com/igor-holt/openclaw-skills/tree/main/mcp-openclaw-bridge",
+      "description": "Bridge Model Context Protocol (MCP) servers into first-class, versioned, discoverable OpenClaw / ClawHub skills. Extract valuable tools, resources and prompts from any MCP server (Smithery, local or remote) and publish them as permanent, triggerable skills with explicit safety boundaries, privacy declarations and auditable thin adapters. Ideal for turning production MCP capabilities into community-installable ClawHub skills. Install: clawhub install mcp-openclaw-bridge. Perfectly composes with the other two skills in the Igor Holt OpenClaw bundle.",
+      "version": "1.0.0",
+      "tags": ["mcp", "bridge", "skill-publishing", "openclaw", "mcp-integration", "genesis-conductor"],
+      "category": "mcp-tools",
+      "homepage": "https://github.com/igor-holt/openclaw-skills/tree/main/mcp-openclaw-bridge",
+      "keywords": ["mcp server to versioned skill bridge", "mcp-openclaw-bridge", "publish mcp tools as skills", "clawhub mcp bridge", "agent tool exposure"]
+    },
+    {
+      "name": "smithery-mcp-orchestrator",
+      "source": "https://github.com/igor-holt/openclaw-skills/tree/main/smithery-mcp-orchestrator",
+      "description": "Discover, securely connect, scope tokens, and orchestrate 100K+ MCP tools from Smithery inside OpenClaw, Grok and compatible agents. Provides namespace discipline, long-lived MCP connections, advanced token policies with rpcReqMatch restrictions, auth_required flow handling, and piped JSONL output. Explicitly designed to pair with grok-persistent-state (memory of namespaces, connections, scoped tokens) and mcp-openclaw-bridge (promote valuable discoveries into permanent published skills). Install: clawhub install smithery-mcp-orchestrator. The secure discovery and orchestration layer of the professional Genesis Conductor OpenClaw stack by @invariantx.",
+      "version": "1.0.0",
+      "tags": ["smithery", "mcp-orchestration", "tool-discovery", "token-scoping", "100k-tools", "openclaw"],
+      "category": "orchestration",
+      "homepage": "https://github.com/igor-holt/openclaw-skills/tree/main/smithery-mcp-orchestrator",
+      "keywords": ["smithery-mcp-orchestrator", "100k+ mcp tools", "secure token scoping", "rpcReqMatch", "mcp discovery for agents", "smithery orchestration"]
+    }
+  ],
+  "links": {
+    "x": "https://x.com/invariantx",
+    "website": "https://genesisconductor.io",
+    "production-dashboard": "https://clawdash.genesisconductor.io",
+    "github-pages-mirror": "https://igor-holt.github.io/openclaw-skills/",
+    "github": "https://github.com/igor-holt/openclaw-skills"
+  }
+}
