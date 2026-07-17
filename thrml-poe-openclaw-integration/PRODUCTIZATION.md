@@ -1,31 +1,33 @@
 # Productization Status — thrml-poe-openclaw-integration
 
-**Date**: 2026-07-16
+**Updated**: 2026-07-17
 
 ## Stripe
 - Product ID: `prod_UthVhxvukvXzHN`
 - Name: Genesis Conductor Diamondnode Thermo CDI Access
-- Default Price: `price_1Ttu61GPN6GwS73rwryDQx70` — $99 USD / month
+- Default Price: `price_1Ttu61GPN6GwS73rwryDQx70` — **$99 USD / month**
+- **Live Payment Link**: https://buy.stripe.com/aFa00j9gq5xY9lK12H04804
 - Metadata: skill=thrml-poe-openclaw-integration, portfolio=diamondnode-12, eta_thermo=0.75
 - Livemode: true
-- One of the 13 independent revenue streams targeting $70k+/mo.
 
 ## X Ads
-- Account: 18ce55qczc0 (Igor Holt)
-- Campaign ID: `oz6sn`
-- Name: Genesis Conductor Diamondnode Thermo CDI - High-VPD Skill Portfolio
-- Status: PAUSED (no spend until explicitly activated)
-- Funding: 181ws1
+- Campaign ID: `oz6sn` (PAUSED)
 
-## PBC (Partner / SI)
-- Partner: Kovach Enterprises (partner_id 1780361400701x131085012724263980) affiliated with Anthropic
-- Service Project ID: `1784226815332x255984241093669700`
-- Name: Genesis Conductor Diamondnode Thermo CDI & High-VPD Skill Portfolio Deployment
-- Services: Internal Agentic Platform Build, Customer-Facing AI Product Build, Build Prototype / POC
-- Window: 2026-07-16 → 2026-12-31
+## PBC
+- SI Project: `1784226815332x255984241093669700`
+
+## Linear
+- Project: Diamondnode Thermo CDI & thrml-poe Rollout
+- Issue: DIA-14
+
+## Retool
+- Dashboard: https://invariantx.retool.com/rr/edit/57941c8c-8147-11f1-acd0-3796f9b57590
+
+## Cloudflare
+- Worker webhook skeleton ready for hermes / thrml-poe a2a events (Workers Rate Limiting GA + auth).
+
+## Unifying Thread (via unifying-thread skill)
+Thermodynamic inference substrate (THRML-POE + Landauer/η_thermo) + agentic CDI (Hermes/OpenClaw) + direct-action execution (tunnel-through) + strategic through-line recovery under single high-VPD A2A registry + QUBO portfolio, now monetized via live Stripe Payment Link. Advances financial infrastructure (13 streams), intrinsic pursuit (invariant thermo models), and hybridization (verifiable CDI surfaces).
 
 ## Status
-- Registry + QUBO filter complete and observable.
-- New skill is first-class in the portfolio.
-- All mandatory A2A contracts and crystalline targets held.
-- Ready for live Hermes CDI run, Cloudflare Worker webhook, Linear issue tracking, or further Stripe Checkout / Payment Link activation.
+Registry + QUBO complete. Skill first-class. A2A contracts held. Stripe product + **live Payment Link**. Ready for Hermes CDI activation, Worker deploy, or X Ads unpause.
