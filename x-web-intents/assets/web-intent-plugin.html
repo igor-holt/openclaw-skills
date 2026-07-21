@@ -1,0 +1,128 @@
+<!-- X Web Intents Drop-in Plugin
+     Include this fragment (or its contents) in any page.
+     Auto-wires every element that has data-x-intent="tweet|reply|retweet|like|follow|user"
+     Optional data attributes: data-text, data-url, data-hashtags, data-via,
+     data-tweet-id, data-screen-name, data-user-id
+-->
+<style>
+  .x-intent-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.45em 0.9em;
+    background: #000;
+    color: #fff;
+    border-radius: 9999px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .x-intent-btn:hover { background: #1a1a1a; }
+  .x-intent-btn svg { width: 1.1em; height: 1.1em; fill: currentColor; }
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  const BASE = 'https://x.com/intent/';
+
+  function encode(v) {
+    return v == null ? '' : encodeURIComponent(String(v));
+  }
+
+  function buildIntent(el) {
+    const type = (el.getAttribute('data-x-intent') || '').toLowerCase();
+    const text = el.getAttribute('data-text') || '';
+    const url = el.getAttribute('data-url') || '';
+    const hashtags = el.getAttribute('data-hashtags') || '';
+    const via = el.getAttribute('data-via') || '';
+    const tweetId = el.getAttribute('data-tweet-id') || '';
+    const screenName = el.getAttribute('data-screen-name') || '';
+    const userId = el.getAttribute('data-user-id') || '';
+
+    let path = '';
+    const params = new URLSearchParams();
+
+    switch (type) {
+      case 'tweet':
+        path = 'tweet';
+        if (text) params.set('text', text);
+        if (url) params.set('url', url);
+        if (hashtags) params.set('hashtags', hashtags);
+        if (via) params.set('via', via);
+        break;
+      case 'reply':
+        path = 'tweet';
+        if (tweetId) params.set('in_reply_to', tweetId);
+        if (text) params.set('text', text);
+        break;
+      case 'retweet':
+        path = 'retweet';
+        if (tweetId) params.set('tweet_id', tweetId);
+        break;
+      case 'like':
+        path = 'like';
+        if (tweetId) params.set('tweet_id', tweetId);
+        break;
+      case 'follow':
+        path = 'follow';
+        if (screenName) params.set('screen_name', screenName);
+        else if (userId) params.set('user_id', userId);
+        break;
+      case 'user':
+        path = 'user';
+        if (screenName) params.set('screen_name', screenName);
+        else if (userId) params.set('user_id', userId);
+        break;
+      default:
+        return null;
+    }
+
+    const qs = params.toString();
+    return BASE + path + (qs ? '?' + qs : '');
+  }
+
+  function wire(el) {
+    const href = buildIntent(el);
+    if (!href) return;
+    if (el.tagName === 'A') {
+      el.href = href;
+      el.target = '_blank';
+      el.rel = 'noopener noreferrer';
+    } else {
+      el.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.open(href, '_blank', 'noopener,noreferrer');
+      });
+    }
+  }
+
+  function init() {
+    document.querySelectorAll('[data-x-intent]').forEach(wire);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  // Public API
+  window.XWebIntents = {
+    build: function (opts) {
+      const fake = document.createElement('span');
+      Object.keys(opts || {}).forEach(function (k) {
+        fake.setAttribute('data-' + k.replace(/([A-Z])/g, '-$1').toLowerCase(), opts[k]);
+      });
+      fake.setAttribute('data-x-intent', opts.type || 'tweet');
+      return buildIntent(fake);
+    },
+    rewire: init
+  };
+})();
+</script>
