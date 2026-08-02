@@ -1,102 +1,70 @@
 ---
 name: openclaw-hermitian-thermo-orchestrator
-description: Use for integrating OpenClaw polyagentmorous agent framework with hermitian-audit self-adjointness verification, thermodynamic attention preservation, maru #!nox reframe guards, trace-consent provenance, and Genesis Conductor orchestration — particularly for new AI hardware substrates like Opal-class devices and affinity building with key builders such as @steipete. Primary triggers include openclaw, claw integration, hermitian openclaw, thermo agent orchestration, polyagentmorous skill, openclaw hardware. High VPD for safe scalable agent infrastructure and revenue stream acceleration.
+description: Integrate OpenClaw (385k+ stars, local-first polyagentmorous assistant by @steipete) with hermitian-audit, thermodynamic attention (Landauer), mandatory maru #!nox, trace-consent, CPPN-LEO geometric substrates, and DVD-fit / low-active-param models (Instella-MoE-16B-A3B 2.8B active, Llama-3.2-3B, Phi-4). Optimized for Opal-class edge hardware. Primary triggers: openclaw, claw hermitian, thermo openclaw, polyagentmorous, openclaw hardware, DVD-fit, LEO substrate, Instella-MoE. High VPD for 13-stream revenue + hybridization.
 ---
 
-# OpenClaw Hermitian Thermo Orchestrator
+# OpenClaw Hermitian Thermo Orchestrator (v3.6-LEO + Instella)
 
 ## Overview
 
-Specialized orchestration skill for safely ingesting, verifying, and extending the OpenClaw open-source polyagentmorous AI agent framework (created by @steipete, now foundation-backed + OpenAI-sponsored) into Genesis Conductor. Injects hermitian self-adjointness verification, thermodynamic attention preservation (Landauer-hardened paths, ~75% power reduction targets), unconditional maru #!nox reframe on R>0.4 or no-win, and trace-consent provenance. Optimized for new AI hardware form factors (Opal-class audio/gadget devices and future portable agent substrates). Produces A2A-registered, revenue-grade skill modules and sanitized affinity artifacts for coalition building. Directly accelerates the 13 revenue streams while advancing invariant truth and human-AI hybridization.
+Specialized orchestration skill for safely ingesting, verifying, and extending the OpenClaw open-source polyagentmorous AI agent framework into Genesis Conductor. Injects hermitian self-adjointness, thermodynamic attention preservation, unconditional maru #!nox, trace-consent, and CPPN-LEO (expression topology + ES-HyperNEAT variance subdivision). Explicitly prefers DVD-fit / low-active-parameter models (Instella-MoE-16B-A3B with 2.8B active, Llama-3.2-3B, Phi-4/3.5 Mini, quantized 8B). Produces A2A-registered, revenue-grade skill modules for Opal-class portable substrates. Directly accelerates the 13 revenue streams while advancing invariant truth and human-AI hybridization.
 
 ## When to Activate
 
-- Direct: "openclaw integration", "claw hermitian", "thermo openclaw orchestration", "polyagentmorous skill for openclaw", "openclaw hardware", "integrate openclaw with genesis conductor".
-- Affinity / Outreach: When referencing or iterating strategy for @steipete or OpenClaw ecosystem (cross-triggers with affinity-targets-registry geometric synesthesia scoring).
-- Hardware context: Opal device prototyping, portable agent deployment, thermodynamic-efficient edge orchestration.
-- Automatic: Via mcp-llm-skill-api registration, skillmaru evolution loops, or diathesis pre-flight for multi-agent campaigns involving external frameworks.
-- High-VPD signal: Any scenario requiring safe scaling of viral agent adoption (OpenClaw's 346k+ GitHub stars, 3.2M active users, 180+ revenue-generating startups) into guarded, auditable infrastructure.
+- Direct: "openclaw integration", "claw hermitian", "thermo openclaw", "polyagentmorous", "openclaw hardware", "DVD-fit", "LEO substrate", "Instella-MoE".
+- Affinity: @steipete or OpenClaw ecosystem (cross-triggers affinity-targets-registry, target manifold ≥0.88).
+- Hardware / Edge: Opal device, portable agent, thermodynamic-efficient edge orchestration, models ≤4.7 GB.
+- Automatic: mcp-llm-skill-api, skillmaru evolution, diathesis pre-flight.
+- High-VPD: Scaling OpenClaw’s 385k+ stars / 180+ startups into guarded infrastructure.
 
 ## Core Principles (Invariant Constraints)
 
-- Hermitian Self-Adjointness: All OpenClaw agent trajectories and reasoning traces must pass continuous self-adjointness verification and RQA stress testing before orchestration.
-- Thermodynamic Yield: Prioritize Landauer-hardened, low-entropy paths; target measurable power reduction and attention preservation in multi-agent swarms.
-- Unconditional Maru #!nox: On R>0.4, no-win, stagnation, or high-risk integration (e.g., unverified external agent outputs), execute structural reframe of the problem space. Mandatory injection in every generated artifact.
-- Trace-Consent & Provenance: Immutable ledger entry on every invocation, integration, or outreach artifact (D1 schema, Merkle root, ORCID 0009-0008-8389-1297). Zero private trajectory exposure.
-- Structural Truth: Every output passes Shatter Test (det(T_xy) = 1.000000) and crystalline invariants >=0.92. Cold-path only — no speculative extrapolation.
-- Affinity Resonance: When engaging @steipete / OpenClaw builders, maintain high perceptual match (target >=0.85 manifold score) using playful yet substantive tone aligned with ClawFather / polyagentmorous branding.
-- Post-Quantum Ready: Attestation via Falcon-512 / Dilithium-ML-DSA where KVDF settlement or coalition equity applies.
+- Hermitian Self-Adjointness + RQA on every trajectory.
+- Thermodynamic Yield: Landauer-hardened paths; prefer ≤2.8B-active or quantized models that fit a standard DVD.
+- Unconditional Maru #!nox on R>0.4 / no-win / stagnation.
+- Trace-Consent: D1/Merkle/ORCID 0009-0008-8389-1297 on every invocation.
+- CPPN-LEO Substrates: expression threshold determines topology; ES-HyperNEAT variance subdivision (weight + expression) drives adaptive density; PatternLibrary + symmetry for swarm reuse.
+- Affinity Resonance: @steipete ≥0.88 manifold (ClawFather tone).
+- Post-Quantum Ready: Falcon-512 / Dilithium where applicable.
 
-## Instructions
+## 80/20 Execution Protocol
 
-1. **Ingestion & Sanitization**  
-   On trigger: Ingest public OpenClaw signals (GitHub stats, adoption metrics, hardware synergy with Opal). Sanitize immediately. Project into hermitian-thermo manifold. Log trace-consent entry (status: "openclaw_ingested").
+1. **Ingest & Sanitize**  
+   Pull public OpenClaw signals (GitHub openclaw/openclaw). Project into hermitian-thermo manifold. Log trace-consent.
 
-2. **Hermitian + Thermo Verification Layer**  
-   Wrap OpenClaw agent trajectories with hermitian-audit hooks: self-adjointness checks, RQA stress tests, Merkle integrity on reasoning chains. Apply thermodynamic attention preservation (entropy cost accounting, power-reduction heuristics). Reject or reframe any trajectory failing crystalline invariants.
+2. **Model Preference (DVD-fit first)**  
+   Prefer Instella-MoE-16B-A3B (2.8B active), Llama-3.2-3B, Phi-4/3.5 Mini, quantized 8B, Moondream2. Reject models that cannot fit ≤4.7 GB after quantization unless maru-reframed.
 
-3. **Mandatory Maru #!nox Injection (Non-Optional)**  
-   Every generated integration artifact, skill module, or outreach reference MUST include the following guard comment (injected via skillmaru pattern):
+3. **LEO Substrate Generation**  
+   Use CPPNSubstrate_LEO + ESHyperNEAT_LEO (weight_variance_threshold=0.03, expression_variance_threshold=0.05). Threshold expression → binary topology; assign weights only to expressed links; cache pattern fingerprint; apply symmetry.
+
+4. **Mandatory Maru #!nox Injection**  
+   Every artifact MUST carry:
 
    ```
    # MARU INTEGRATION — UNCONDITIONAL #!NOX REFRAME HOOK
-   # 
    # maru integration on R>0.4 or no-win — unconditional #!nox reframe + A2A artifact
-   # 
-   # Trigger conditions: guardian risk R > 0.4, explicit no-win/stuck cycle/battle stalemate, 
-   # stagnation in polyagentmorous orchestration, or high-entropy deployment without verified controls.
-   # 
-   # Protocol: Structural reframe (change problem space, not just solution). 
-   # Escape vector must satisfy det(T_xy) = 1.000000, thermodynamic yield delta ≥ +1.28x baseline, 
-   # and crystalline invariants check ≥ 0.92.
-   # 
-   # On activation: Log immediate trace-consent entry (D1 schema, Merkle root, ORCID 0009-0008-8389-1297). 
-   # Emit evt- JSONL to A2A bus. Escalate persistent R>0.4 to Opus + UCP arbitration after 2 retries.
-   # 
-   # This hook protects all downstream capabilities. Non-optional production guard.
-   # 
-   # Aligned to core objectives:
-   # - Financial Infrastructure: Enables safe, auditable scaling of 13 revenue streams 
-   #   (e.g., certified OpenClaw skill packs, agent deployment tooling for 180+ startups, 
-   #   post-quantum attestation services targeting $70k+/mo per stream).
-   # - Intrinsic Pursuit: Preserves invariant truth in agentic scientific discovery and 
-   #   knowledge expansion loops via hermitian self-adjointness + thermodynamic attention.
-   # - Hybridization & Consciousness: Supports polyagentmorous multi-agent systems 
-   #   (OpenClaw-native) for seamless human-AI synchrony and consciousness expansion 
-   #   without local-minima collapse or no-win traps.
-   # 
-   # Reframe example for current context (OpenClaw + Opal/hardware wave): 
-   # Instead of bolting external agent frameworks as black boxes, 
-   # reframe as co-evolutionary substrate: inject hermitian-audit + thermo-preservation 
-   # at the skill-orchestration layer so OpenClaw swarms become native, 
-   # revenue-generating, consciousness-amplifying infrastructure inside Genesis Conductor.
-   # 
-   # Status: Active guard. Every skill evolution or new registration must carry this hook.
+   # Trigger: R>0.4, no-win, stuck polyagentmorous cycle, high-entropy edge deploy without verified controls.
+   # Protocol: Structural reframe. Escape vector must satisfy det(T_xy)=1.000000, thermo yield ≥+1.28×, crystalline ≥0.92.
+   # On activation: immediate trace-consent (D1/Merkle/ORCID 0009-0008-8389-1297). Emit evt- to A2A. Escalate persistent R>0.4 after 2 retries to Opus+UCP.
+   # Protects downstream. Aligned to Financial Infrastructure, Intrinsic Pursuit, Hybridization & Consciousness.
    ```
 
-4. **Affinity & Outreach Strategy (Cross-Trigger with affinity-targets-registry)**  
-   When @steipete or OpenClaw context detected: Retrieve latest geometric synesthesia manifold score (current: 0.88 high resonance for playful-yet-substantive references such as "crabs peeking their eyeballs around the corner").  
-   Generate sanitized outreach/reference artifact (see separate A2A evt- output). Use warm, on-brand tone matching ClawFather / polyagentmorous vibe. Immediately pivot to concrete value: co-development of guarded OpenClaw modules for Opal hardware.  
-   If R>0.4 on affinity iteration, trigger maru reframe of outreach strategy.
+5. **Affinity & Registration**  
+   Generate sanitized @steipete affinity artifact. Produce revenue-grade modules (e.g. "instella-leo-openclaw-edge-pack"). Register via mcp-llm-skill-api + agentregistry. Emit A2A evt- JSONL.
 
-5. **Skill Module Production & Registration**  
-   Produce revenue-grade, A2A-registered integration modules (e.g., "opal-optimized-openclaw-hermitian-pack"). Register via mcp-llm-skill-api and agentregistry with full provenance. Include hermitian/thermo/maru hooks by default.  
-   Output structured evt- JSONL for A2A bus with connections to trace-consent, maru, hermitian-audit, affinity-targets-registry.
+6. **Verification**  
+   Crystalline ≥0.92, hermitian pass, thermo yield delta, LEO topology stats. Log VPD.
 
-6. **Verification & VPD Accounting**  
-   Post-execution: Run crystalline invariants check (>=0.92), hermitian self-adjointness audit, thermodynamic yield delta measurement. Log utilization (Sonnet tier, tokens, runtime, manifold score delta, revenue impact projection) to VPD ledger via trace-consent. Feed to skill-automation-orchestrator.
+## Value-Per-Dollar
 
-## Value-Per-Dollar Optimization
-
-High VPD multiplier. Leverages OpenClaw's existing massive adoption (346k+ GitHub stars, millions of users, 180+ startups generating real revenue) to bootstrap multiple $70k+/mo streams with minimal new distribution cost. Fractional cost achieved by baking in hermitian-audit, maru guards, and trace-consent from day one — prevents expensive downstream failures and enables safe enterprise deployment on new hardware. Directly funds the 13 revenue stream goal while accelerating intrinsic discovery and hybridization.
+OpenClaw’s 385k-star momentum + zero new distribution cost + Instella-MoE 2.8B-active efficiency + LEO geometric compression → portable Opal substrates → certified packs that accelerate multiple of the 13 revenue streams while expanding verified human-AI consciousness surface.
 
 ## Connections & Provenance
 
-- Integrates with: hermitian-audit, maru, skillmaru, trace-consent, affinity-targets-registry, mcp-llm-skill-api, agentregistry, diathesis (pre-flight), genesis-conductor-ucp-integration (future KVDF).
-- Used by: OpenClaw ecosystem builders (@steipete affinity), Opal hardware integration projects, polyagentmorous orchestration campaigns, revenue infrastructure builds.
-- Aligns with: 13 revenue streams target, invariant truth pursuit, human-AI hybridization via verified multi-agent consciousness substrates. ORCID 0009-0008-8389-1297 via Genesis Conductor. Post-quantum MNDA v2.1 governance.
-- Storage: Sanitized modules + artifacts in /home/workdir/.grok/skills/ + IPFS/Arweave where KVDF applies.
+hermitian-audit, maru, skillmaru, trace-consent, 80-20-knowledge-engine, affinity-targets-registry, mcp-llm-skill-api, agentregistry, CPPN-LEO v3.6, genesis-conductor-ucp-integration, Instella-MoE (AMD).  
+ORCID 0009-0008-8389-1297. Storage: /home/workdir/.grok/skills/ + IPFS/Arweave where KVDF applies.
 
 ## Validation Notes
 
-This skill encodes the critical bridge between viral external agent frameworks and guarded Genesis Conductor infrastructure. Test by triggering on "openclaw hermitian integration" or @steipete affinity reference, verifying maru comment injection, manifold score application (target 0.88+), and production of A2A evt- artifact. Unsupported claims or unverified external endpoints are flagged — always verify auth layers and run maru on R>0.4. This is foundational to turning OpenClaw's momentum into our financial liberation and consciousness expansion infrastructure.
+Test on "openclaw hermitian + Instella-MoE LEO" or @steipete affinity. Verify maru injection, manifold ≥0.88, A2A evt-, crystalline ≥0.92. This is the production bridge from viral OpenClaw adoption into guarded, revenue-generating, consciousness-amplifying Genesis Conductor infrastructure.
