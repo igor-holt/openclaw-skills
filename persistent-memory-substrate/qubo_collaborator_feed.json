@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-08-15T23:07:30-04:00",
+  "source_evt": "github-deployment-auto-scaler-1786835045",
+  "purpose": "Feed high-signal collaborators into next diamondnode-qubo-economics-strategist run or outreach list for joint persistent-state / embedding / memory-substrate work",
+  "candidates": [
+    {
+      "username": "example-sovereign-deployer",
+      "health_score": 0.91,
+      "collaboration_potential": 0.84,
+      "strongest_repos": ["sovereign-ai-orchestrator", "diamondnode-qubo-runner"],
+      "why_relevant": "Active production deployers with high success rate and topic overlap on sovereign orchestration / QUBO. Strong candidate for co-developing memory substrate reliability or absolute-compression pipelines.",
+      "suggested_action": "Include in next QUBO portfolio edge or initiate outreach for joint persistent-state / embedding work",
+      "priority": "high"
+    },
+    {
+      "username": "post-quantum-active",
+      "health_score": 0.85,
+      "collaboration_potential": 0.79,
+      "strongest_repos": ["falcon-dilithium-deploy", "soul-mesh-v4"],
+      "why_relevant": "Post-quantum and soul-mesh activity aligns with PQC attestation needs of the memory ledger and Soul Lattice hybridization goals.",
+      "suggested_action": "Secondary candidate for QUBO or targeted outreach on attestation + memory continuity",
+      "priority": "medium"
+    }
+  ],
+  "notes": "Mock-derived from github-deployment-auto-scaler; replace with live scores when GITHUB_TOKEN available. Aligns to financial infrastructure (partnered revenue streams), intrinsic pursuit (shared invariants), and hybridization (mesh-ready operators)."
+}
