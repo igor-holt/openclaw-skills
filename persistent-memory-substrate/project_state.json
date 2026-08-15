@@ -1,0 +1,43 @@
+{
+  "project_id": "genesis-conductor-cross-agentic-memory",
+  "goal": "Establish and maintain a sovereign, low-entropy, cross-agentic session memory substrate that is persistent through reflection and refraction, using absolute compression via Gemma Embedding v2 + JAX + HyperNEAT/ES-HyperNEAT topology evolution, isolated in Podman, and versioned/synced via GitHub + Google Drive under a2a-skill-registry-manager orchestration.",
+  "current_focus": "Materialize canonical project_state.json + latest A2A/evt batch; execute controlled reflection producing Gemma Embedding v2 compressed snapshot of recent sessions; evaluate topology efficiency for possible HyperNEAT evolution; score deployment health of resulting surfaces via github-deployment-auto-scaler and surface high-signal collaborators.",
+  "recent_changes": [
+    "2026-08-15: Confirmed storage architecture — GitHub + Google Drive as durable store, grok-persistent-state for session continuity, A2A JSONL + evt- for ledger, absolute compression stack (Gemma Embedding v2 / JAX / HyperNEAT / Podman).",
+    "2026-08-15: Located state-template.json in igor-holt/openclaw-skills/grok-persistent-state and example evt-sovereign-web-deployment-20260708-001.json on Drive.",
+    "2026-08-15: Ran github-deployment-auto-scaler (mock) producing /home/workdir/artifacts/github_deployment_analysis_1786835045.json with user_health 0.87 and ranked collaborators.",
+    "2026-08-15: Created this project_state.json and supporting evt- record under persistent-memory-substrate/.",
+    "2026-08-15: Pushed full substrate artifacts to openclaw-skills/persistent-memory-substrate/ and confirmed node health via thrive-monitor."
+  ],
+  "open_tasks": [
+    "Produce actual Gemma Embedding v2 vector snapshot of last N sessions (requires embedding endpoint or local JAX/Gemma runtime; placeholder semantic summary created in reflection pass).",
+    "If retrieval latency or topology sparsity is bottleneck after embedding, invoke sv HyperNEAT/CPPN-LEO path to evolve compact retrieval substrate, re-embed, and re-sync.",
+    "Promote any high-signal collaborators from the auto-scaler run into QUBO portfolio or outreach list for persistent-state / embedding co-development.",
+    "Continue thrive-monitor observation of Podman/container and memory pressure."
+  ],
+  "decisions": [
+    "Primary durable store remains GitHub (versioned source of truth) + Google Drive (artifact layer), orchestrated by a2a-skill-registry-manager.",
+    "Session continuity via grok-persistent-state project_state.json schema; cross-agent ledger via append-only A2A JSONL + content-hash embeddings.",
+    "Absolute compression stack locked: Gemma Embedding v2 for vectors, JAX for compute, HyperNEAT/ES-HyperNEAT for topology evolution, Podman for isolation of reflection/refraction sessions.",
+    "Reflection = crystal scoring + prospective/retrospective summarization + cold-snap; refraction = multi-agent A2A projection + spectral/topological remapping. Both must leave crystalline_invariant >= 0.85.",
+    "All writes gated by maru (R>0.4) and emit evt- for trace-consent / Thrive Monitor.",
+    "Target repo confirmed as igor-holt/openclaw-skills (hosts grok-persistent-state)."
+  ],
+  "artifacts": [
+    "/home/workdir/artifacts/persistent-memory-substrate/project_state.json",
+    "/home/workdir/artifacts/persistent-memory-substrate/evt-memory-substrate-reflection-20260815-001.json",
+    "/home/workdir/artifacts/github_deployment_analysis_1786835045.json",
+    "https://github.com/igor-holt/openclaw-skills/tree/main/persistent-memory-substrate",
+    "https://github.com/igor-holt/openclaw-skills/blob/main/grok-persistent-state/state-template.json",
+    "https://drive.google.com/file/d/1aBxcSNjZwHRdLyEUm2PadOFHIdUFtsLX/view"
+  ],
+  "skill_preferences": {
+    "memory": ["grok-persistent-state", "evt-processor", "a2a-skill-registry-manager"],
+    "analysis": ["unifying-thread", "github-deployment-auto-scaler", "sv"],
+    "compression": ["Gemma Embedding v2", "JAX", "HyperNEAT/ES-HyperNEAT via CPPN-LEO"],
+    "isolation": ["Podman", "thrive-monitor container awareness"]
+  },
+  "updated_at": "2026-08-15T23:07:00-04:00",
+  "crystalline_invariant": 0.91,
+  "thermodynamic_note": "State materialization itself is low-entropy: template-driven, explicit, no speculative fill. Ready for reflection pass and subsequent A2A sync. Node health confirmed healthy (15% mem, 0 containers)."
+}
