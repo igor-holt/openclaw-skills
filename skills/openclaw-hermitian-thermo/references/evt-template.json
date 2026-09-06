@@ -1,0 +1,20 @@
+{
+  "evt_id": "trace-consent-openclaw-hto-<utc>",
+  "schema_version": "1.0",
+  "record_type": "execution_trace",
+  "skill_name": "openclaw-hermitian-thermo",
+  "skill_version": "1.1.0",
+  "risk_R": 0.0,
+  "crystalline_invariant": 0.0,
+  "maru_reframes": 0,
+  "hermitian_audit": "pass_routine|anomaly",
+  "outcome": "success|reframed|escalated",
+  "orcid_attribution": "0009-0008-8389-1297",
+  "status": "initiated",
+  "connections": [
+    "maru",
+    "trace-consent",
+    "hermitian-audit",
+    "openclaw-hermitian-thermo-orchestrator"
+  ]
+}
