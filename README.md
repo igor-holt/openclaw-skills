@@ -9,6 +9,20 @@ These three skills form a complete, designed-to-compose professional stack for r
 
 Follow @invariantx on X for all updates, deeper threads, and the full series.
 
+## ClawHub pack (2026-09-06)
+
+Guarded Hermitian / thermodynamic OpenClaw orchestrator, ClawHub path:
+
+```bash
+clawhub install openclaw-hermitian-thermo
+```
+
+Source: [`skills/openclaw-hermitian-thermo/`](https://github.com/igor-holt/openclaw-skills/tree/main/skills/openclaw-hermitian-thermo)
+
+Policies baked in: Drive-only env wrappers, no new Netlify/Vercel site, `gibbs-r30` left untouched, LegacyEdge (≤1.5 GB / Fire HD) stays client mode.
+
+Long-form doctrine: [`openclaw-hermitian-thermo-orchestrator/`](https://github.com/igor-holt/openclaw-skills/tree/main/openclaw-hermitian-thermo-orchestrator)
+
 ## The Paired Trio (Designed to Work Together)
 
 These three skills form a complete professional stack:
