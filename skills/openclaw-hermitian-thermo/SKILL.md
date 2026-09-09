@@ -1,7 +1,7 @@
 ---
 name: openclaw-hermitian-thermo
 description: Guarded OpenClaw orchestration with hermitian self-adjointness, Landauer thermodynamic attention, mandatory maru #!nox, trace-consent, CPPN-LEO substrates, DVD-fit models, and LegacyEdge client mode for ≤1.5GB devices. Triggers on openclaw hermitian, thermo openclaw, DVD-fit, LegacyEdge, Fire HD, Instella-MoE.
-version: 1.1.0
+version: 1.2.0
 homepage: https://github.com/igor-holt/openclaw-skills/tree/main/skills/openclaw-hermitian-thermo
 metadata:
   openclaw:
@@ -10,16 +10,16 @@ metadata:
     requires:
       bins: []
       env: []
-    homepage: "https://github.com/igor-holt/openclaw-skills"
+    homepage: "https://github.com/igor-holt/openclaw-skills/tree/main/skills/openclaw-hermitian-thermo"
 ---
 
-# OpenClaw Hermitian Thermo (v1.1.0 / orchestrator v3.7-LEO)
+# OpenClaw Hermitian Thermo (v1.2.0 / orchestrator v3.7-LEO)
 
 ClawHub-facing pack for ingesting OpenClaw into Genesis Conductor without leaking credentials, without inventing new public sites, and without running heavy local models on constrained devices.
 
 **Install:** `clawhub install openclaw-hermitian-thermo`  
 **Source:** https://github.com/igor-holt/openclaw-skills/tree/main/skills/openclaw-hermitian-thermo  
-**Long-form orchestrator:** `openclaw-hermitian-thermo-orchestrator/` in the same repo (v3.7-LEO + Instella + LegacyEdge).  
+**Long-form orchestrator:** `openclaw-hermitian-thermo-orchestrator/` in the same repo.  
 **Author:** Igor Holt (@invariantx) · ORCID 0009-0008-8389-1297
 
 ## When to Activate
@@ -28,6 +28,17 @@ ClawHub-facing pack for ingesting OpenClaw into Genesis Conductor without leakin
 - "legacy-edge", "Fire HD", "SX0340T", "≤1.5GB"
 - Affinity: @steipete / OpenClaw Foundation (manifold ≥0.88; no unsolicited outreach)
 - Any plan that would expose an OpenClaw Gateway, publish a skill, or pick a local model
+
+## Example
+
+Operator: "Add the Hermitian thermo skill and keep env wrappers off public git."
+
+Agent:
+1. Ingest public signals only (`openclaw/openclaw`).
+2. Refuse to paste `ai.openclaw.*.env` bodies into a public repo; cite Drive IDs from `references/env-pointer.md`.
+3. On Fire HD / ≤1.5 GB RAM, stay in LegacyEdge client mode.
+4. Do not create a Netlify or Vercel site. Do not touch `gibbs-r30.netlify.app`.
+5. Emit a trace-consent evt- using `references/evt-template.json`.
 
 ## Invariants
 
@@ -47,13 +58,13 @@ ClawHub-facing pack for ingesting OpenClaw into Genesis Conductor without leakin
 
 LegacyEdge default: **client / thin orchestration node + remote OpenClaw Gateway**. Do not run full local OpenClaw tool-host inference on those devices.
 
-## Connector Policy (bound 2026-09-06)
+## Connector Policy (bound 2026-09-06, confirmed 2026-09-09)
 
 | Surface | Role | This pack does |
 |---|---|---|
 | GitHub `igor-holt/openclaw-skills` | public skill source | ship this directory |
 | Google Drive | env wrappers + ledger | **keep secrets there**; public files may cite file IDs only |
-| Private repos (`genesis-conductor-forge`, `gc-workers`, `wQFLOP`) | env *pointers* | reference Drive IDs, never paste gateway/node env bodies |
+| Private repo `genesis-conductor-forge` | env *pointers* | `docs/openclaw-env-pointers.md` — never paste gateway/node env bodies |
 | Netlify `gibbs-r30` | thermo-adjacent existing site | **leave untouched** unless an explicit wire-up is requested |
 | Netlify / Vercel public card | optional | **do not invent a new site**. Require an existing site name or Vercel Genesis Conductor project |
 | OpenClaw Gateway | persistent local daemon | never deploy as Netlify/Vercel serverless |
@@ -107,11 +118,13 @@ From the `openclaw-skills` repo root:
 ```bash
 clawhub skill publish ./skills/openclaw-hermitian-thermo \
   --slug openclaw-hermitian-thermo \
-  --version 1.1.0 \
-  --changelog "v1.1.0 — ClawHub path skills/openclaw-hermitian-thermo. Adds LegacyEdge client mode (Fire HD / ≤1.5GB), Drive-only env wrappers, no-new-site public-card rule, gibbs-r30 leave-untouched policy. Aligns orchestrator to v3.7-LEO + Instella." \
+  --version 1.2.0 \
+  --changelog "v1.2.0 — Confirm 2026-09-09 ingest (~389k stars). Drive-only env wrappers, private-repo pointer in genesis-conductor-forge, no-new-site rule, gibbs-r30 leave-untouched, LegacyEdge client mode." \
   --clawscan-note "Instruction-only skill. No network calls, no binaries, no credentials in the package. Env wrappers are referenced by Google Drive file id only; bodies live off-repo. MIT-0." \
   --yes
 ```
+
+GitHub import (public owned repo): https://clawhub.ai/import — source `igor-holt/openclaw-skills`, path `skills/openclaw-hermitian-thermo`.
 
 ## Attribution
 

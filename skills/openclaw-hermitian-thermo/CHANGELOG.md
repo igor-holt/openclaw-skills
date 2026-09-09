@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — 2026-09-09
+
+- Confirm live ingest of `openclaw/openclaw` (~388,996 stars, SHA f5d1d85 class).
+- Keep env wrappers on Google Drive; private pointer remains `genesis-conductor-forge/docs/openclaw-env-pointers.md`.
+- No new Netlify/Vercel site. `gibbs-r30.netlify.app` left untouched.
+- LegacyEdge (≤1.5 GB / Fire HD 8 SX0340T) stays client mode.
+- Adds usage example required for ClawHub listing quality.
+
 ## 1.1.0 — 2026-09-06
 
 - New ClawHub path `skills/openclaw-hermitian-thermo/` (slug `openclaw-hermitian-thermo`).
