@@ -1,0 +1,28 @@
+name: ClawHub Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Preview only (no mutation)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@main
+    with:
+      skill_path: skills/openclaw-hermitian-thermo
+      dry_run: ${{ inputs.dry_run }}
+      tags: latest,genesis-conductor,thermodynamic
+      changelog: >-
+        v1.2.0 — Drive-only env pointers, LegacyEdge client mode,
+        no-new-site, gibbs-r30 untouched.
+      categories: development
+      topics: openclaw,hermitian,thermodynamic,legacyedge
+    secrets:
+      clawhub_token: ${{ secrets.CLAWHUB_TOKEN }}
